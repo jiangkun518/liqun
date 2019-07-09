@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/lib/jquery-1.11.1.min.js"></script>
+    <script src="js/lib/jquery.validate.js"></script>
+    <script src="js/lib/additional-methods.js"></script>
+    <script src="js/lib/jquery.idcode.js"></script>
+    <script src="js/register.js"></script>
+
+</head>
+<body>
+<!--头部-->
+<div class="top_box">
+    <div class="top">
+        <a href="index.html">  <img src="images/logo_03.jpg" alt="">
+        </a>
+
+        <div class="list_len">
+            <ul>
+                <li><i></i><span>利群品质</span></li>
+                <li><i></i><span>诚信保障</span></li>
+                <li><i></i><span>在线交易</span></li>
+                <li><i></i><span>免费发布</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--主体-->
+<div class="container">
+    <div class="con_top_box">
+        <div class="con_top">
+            <p>注册信息</p>
+        </div>
+    </div>
+    <div class="txt">
+        目前仅支持具有合法营业执照的商家、企业、单位等的注册，个人注册将无法通过审核，给您带来不便，敬请谅解。 个人用户购物，为您推荐 利群网商 > ，方便、快捷，利群40余家门店共同为您服务
+    </div>
+    <form action="">
+        <p>
+            <label for="">
+               <span>★</span> 用户名: 　<input type="text" name="uName">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                <span>★</span> 密　码: 　<input type="text" name="uPwd" id="uPwd">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                <span>★</span> 确认密码: <input type="text" name="uPwd2">
+            </label>
+        </p>
+        <p>
+            <label for="">
+                &nbsp;&nbsp;&nbsp;&nbsp; 验证码:　<input type="text" id ="Txtidcode" class ="txtVerification" name="Uyzm">
+                <span id="idcode"></span>
+                <span id="Txt">看不清?<i>换一张</i></span>
+                <span id="error"></span>
+            </label>
+        </p>
+        <p>
+            <label for="">
+                &nbsp;&nbsp;&nbsp;&nbsp;电　话: 　<input type="text" name="uTel">
+            </label>
+        </p>
+        <button>注册</button>
+        <span>我已注册</span>
+        <a href="login.html">立即登录</a>
+    </form>
+</div>
+<div class="foot_box">
+    <div class="foot">
+        <div class="copy">
+            <ul>
+                <li>利群集团</li>
+                <li>百货集团</li>
+                <li>利群忘</li>
+                <li>利群药品</li>
+                <li>利群影城</li>
+                <li>利群水站</li>
+                <li>手机利群</li>
+            </ul>
+        </div>
+        <p>
+            鲁公网安备 3658946464680 号   |鲁ICP证69536631号-8
+        </p>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    $(function(){
+        $.idcode.setCode();
+        $("#Txt i").click(function(){
+            $.idcode.setCode();
+        });
+        var yzmFlag=false;
+        $("#Txtidcode").blur(function(){
+            if(this.value!=$("#ehong-code").text()){
+                $("#error").text("验证码不正确");
+                return
+            }
+            $("#error").text("");
+            yzmFlag=true
+        })
+    })
+</script>

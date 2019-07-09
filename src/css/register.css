@@ -1,0 +1,191 @@
+*{
+margin:0;
+padding:0;
+}
+li{
+list-style:none;
+}
+a{
+text-decoration:none;
+}
+/*头部*/
+top_box{
+width:100%;
+height:110px;
+}
+.top{
+width:1200px;
+height:110px;
+margin:0 auto;
+}
+.top a{
+display:inline-block;
+margin-top:24px;
+float:left;
+}
+.list_len{
+float:right;
+width:790px;
+height:60px;
+margin:25px 10px 0 0 ;
+}
+.list_len ul{
+width:100%;
+height:60px;
+margin-left:50px;
+}
+.list_len li{
+float:left;
+height:60px;
+width:180px;
+line-height:60px;
+text-align:center;
+}
+.list_len i{
+display:inline-block;
+width:40px;
+height:40px;
+float:left;
+margin:8px 0 0 60px;
+background-image:url("../images/index-icon3.png");
+background-repeat:no-repeat;
+background-position:-268px -45px;
+}
+/*主体内容*/
+.container{
+margin-top:5px;
+width:100%;
+height:650px;
+}
+.con_top_box{
+width:100%;
+height:50px;
+border-bottom:1px solid #999999;
+}
+.con_top{
+width:1200px;
+height:50px;
+margin:0 auto;
+}
+.con_top p{
+width:280px;
+height:48px;
+border-bottom:2px solid #e60012;
+font-size:22px;
+text-align:center;
+line-height:48px;
+margin:0 auto;
+color:#e60012;
+}
+.txt{
+width:350px;
+background: #ffface;
+border: 1px solid #f60;
+padding: 0 10px 5px 10px;
+margin:20px auto 30px;
+font-size:14px;
+color:#f60;
+}
+ form{
+ width:680px;
+ height:850px;
+margin:0 auto;
+}
+form p{
+width:100%;
+height:75px;
+color:#666;
+margin-left:58px;
+/*text-align:center;*/
+}
+form p input{
+height:32px;
+width:360px;
+margin-left:10px;
+box-sizing:border-box;
+padding-left:10px;
+}
+form p span{
+color:red;
+}
+form button{
+width:200px;
+height:50px;
+background:#e60012;
+color:#ffffff;
+border:none;
+font-size:18px;
+margin:20px 70px 0 70px;
+}
+form #Txtidcode{
+height:32px;
+width:110px;
+}
+form #idcode{
+display:inline-block;
+width:90px;
+height:28px;
+border:2px solid #c2c2c2;
+position:absolute;
+margin-left:30px;
+background-image:url("../images/yzm.jpg");
+font-size:24px;
+line-height:28px;
+text-align:center;
+font-weight:bold;
+}
+form #Txt{
+display:inline-block;
+width:120px;
+height:28px;
+position:absolute;
+margin-left:150px;
+line-height:28px;
+color:#999999;
+font-size:14px;
+}
+form i{
+color:#4178c4;
+}
+form #error{
+display:inline-block;
+position:absolute;
+width:250px;
+height:30px;
+margin-left:260px;
+}
+/*足部*/
+.foot_wrap{
+width:100%;
+height: 50px;
+}
+.foot{
+width:1200px;
+height:100px;
+margin:70px auto;
+}
+.copy{
+width:650px;
+height:25px;
+margin:15px auto;
+}
+.copy li{
+float:left;
+font-size:15px;
+margin-left:8px;
+width:75px;
+height:20px;
+color:#666;
+line-height:19px;
+text-align:center;
+border-right:#666 1px solid;
+}
+.foot p{
+text-align:center;
+font-size:14px;
+color:#666;
+}
+label.error{
+color: red;
+margin-left:5px;
+}

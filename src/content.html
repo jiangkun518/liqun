@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/content.css">
+    <script src="js/lib/jquery-1.11.1.min.js"></script>
+    <script src="js/lib/jquery.cookie.js"></script>
+    <script src="js/concent.js"></script>
+</head>
+<body>
+<!--头部-->
+<div class="header_wrap">
+    <div class="header">
+        <ul class="left">
+            <li><span>您好,欢迎来到利群采购品台!</span></li>
+
+        </ul>
+        <ul class="right">
+            <li>客户服务</li>
+            <li>服务热线 : 477-69586</li>
+        </ul>
+    </div>
+</div>
+<!--搜索-->
+<div class="serch_wrap">
+    <div class="serch">
+
+        <div class="search_top">
+            <a href="index.html" class="logo"><img src="images/logo_03.jpg" alt="">
+            </a>
+            <!--搜索框-->
+            <div class="search_box_wrap">
+                <div class="search_box">
+                    <input type="text"/>
+                    <span>搜索</span>
+                </div>
+                <p>
+                    热门搜索: 新荷兰土豆 大米 利麦 娃哈哈 红枣
+                </p>
+            </div>
+            <!--购物车-->
+            <a href="cart.html" class="car">
+                <i></i> <span>采购单</span>
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<div class="nav_wrap">
+<div class="nav">
+    <div class="nav_li">
+        <i></i>
+        全部分类
+    </div>
+</div>
+</div>
+
+<div class="nav_map">
+</div>
+
+<div class="main_wrap">
+    <div class="main">
+        <div class="main_left">
+            <div class="main_pic">
+                <div class="middleImg">
+                    <img src="images/nav2_1.jpg" alt="">
+                    <div class="middleArea"></div>
+                </div>
+                <div class="smallPic">
+                    <ul>
+                        <li><img src="images/nav1_1.jpg" alt=""></li>
+                        <li><img src="images/nav1_2.jpg" alt=""></li>
+                        <li><img src="images/nav1_3.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="bigArea">
+                    <img src="images/nav2_1.jpg" id="bigImg">
+                </div>
+
+            </div>
+
+
+            <p>
+                商品编码: PR181212526395
+            </p>
+
+    <p>
+        ☆收藏商品
+    </p>
+
+
+        </div>
+        <div class="main_right">
+            <h3>金龙鱼浓香花生油5L</h3>
+            <i>
+                特价品每日10点开抢 数量有限抢完即恢复原价
+            </i>
+            <div class="center">
+                <p>
+                    价格:
+                    <span>59.9</span>
+                    /桶
+                </p>
+                <p>
+                    供应商
+                    <span>由淮安福兴祥物流发货并提供售后服务 </span>
+                </p>
+                <p>
+                    包装含量
+                    <span>
+                        1桶/件
+                    </span>
+                </p>
+                <p>
+                    <b>服务</b>
+                    <span>
+                        <i></i>支持7天无理由退货， 定制商品除外，鲜活易腐、酒水等商品仅支持当面退货， 查看详情>
+                    </span>
+                </p>
+                <p>
+                    最小起订量 1 件
+                </p>
+            </div>
+
+            <div class="num">
+                <span class="jian">-</span> <input type="" value="1"/><span class="jia">+</span>
+            </div>
+
+
+            <button class="inser" style="width:200px;height:50px;border:none;line-height:50px;text-align:center;background:#e60012;font-size:20px;margin-left:40px;color:#ffffff">加入购物车</button>
+        </div>
+
+    </div>
+    <div class="list">
+        <div class="list_left">
+        <p>猜你喜欢</p>
+            <ul>
+                <li><img src="images/list001.jpg" alt="">
+                <span>利麦纯正花生油5L</span>
+                    <h4>登录查看价格 </h4>
+                </li>
+                <li><img src="images/list002.jpg" alt="">
+                    <span>利麦纯正花生油5L</span>
+                    <h4>登录查看价格 </h4>
+                </li>
+                <li><img src="images/list001.jpg" alt="">
+                    <span>利麦纯正花生油5L</span>
+                    <h4>登录查看价格 </h4>
+                </li>
+                <li><img src="images/list002.jpg" alt="">
+                    <span>利麦纯正花生油5L</span>
+                    <h4>登录查看价格 </h4>
+                </li>
+                <li><img src="images/list001.jpg" alt="">
+                    <span>利麦纯正花生油5L</span>
+                    <h4>登录查看价格 </h4>
+                </li>
+                <li><img src="images/list002.jpg" alt="">
+                    <span>利麦纯正花生油5L</span>
+                    <h4>登录查看价格 </h4>
+                </li>
+            </ul>
+        </div>
+        <div class="list_right">
+            <div class="list_top">
+                <span>商品介绍</span>
+                <a href="#">商品评价(0)</a>
+            </div>
+            <img src="images/big001.jpg" alt="">
+            <img src="images/big002.jpg" alt="">
+            <img src="images/big001.jpg" alt="">
+            <img src="images/big002.jpg" alt="">
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    function getStyle(obj, attr){
+        if(window.getComputedStyle){
+            return window.getComputedStyle(obj, null)[attr];
+        }
+        return obj.currentStyle[attr];
+    }
+    window.onload=function(){
+        var oPic=document.querySelector('.main_pic');
+        var mImg=document.querySelector('.middleImg');
+        var mArea=document.querySelector('.middleArea');
+        var bArea=document.querySelector('.bigArea');
+        var bImg=document.getElementById('bigImg');
+
+        var sH=(parseInt(getStyle(mImg,"height"))/parseInt(getStyle(bImg,"height")))*parseInt(getStyle(bArea,"height"));
+        var sW=(parseInt(getStyle(mImg,"width"))/parseInt(getStyle(bImg,"width")))*parseInt(getStyle(bArea,"width"));
+
+        mArea.style.width=sW+"px";
+        mArea.style.height=sH+"px";
+        var oScale=mImg.offsetWidth/parseInt(getStyle(mArea,"width"));
+
+        mImg.onmouseenter=function(){
+            mArea.style.display="block";
+            bArea.style.display="block";
+            document.onmousemove=function(evt){
+                var e=evt||window.event;
+                var mX=e.clientX-oPic.offsetLeft-mArea.offsetWidth/2;
+                if(mX<=0){
+                    mX=0;
+                }
+                if(mX>mImg.offsetWidth-mArea.offsetWidth){
+                    mX=mImg.offsetWidth-mArea.offsetWidth;
+                }
+                var mY=e.clientY-oPic.offsetTop-mArea.offsetHeight/2;
+                if(mY<=0){
+                    mY=0;
+                }
+                if(mY>mImg.offsetWidth-mArea.offsetWidth){
+                    mY=mImg.offsetWidth-mArea.offsetWidth;
+                }
+                mArea.style.left=mX+"px";
+                mArea.style.top=mY+"px";
+
+                bImg.style.left=-oScale*mX+"px";
+                bImg.style.top=-oScale*mY+"px";
+            }
+        };
+        mImg.onmouseleave=function(){
+            document.onmousemove=null;
+            mArea.style.display="none";
+            bArea.style.display="none";
+        }
+        var oLis=document.querySelectorAll('.smallPic li');
+        for(var[k,o]of oLis.entries()){
+            o.index=k;
+            o.onmouseenter=function(){
+                mImg.children[0].src=`images/nav1_${this.index+1}.jpg`;
+                bArea.children[0].src=`images/nav2_${this.index+1}.jpg`
+            }
+        }
+    };
+
+
+
+</script>

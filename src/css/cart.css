@@ -1,0 +1,177 @@
+*{
+margin:0;
+padding:0;
+}
+li{
+list-style:none;
+}
+a{
+text-decoration:none;
+}
+
+/*头部*/
+.header_wrap{
+width:100%;
+height:30px;
+background:#ececec;;
+}
+.header{
+width:1200px;
+height:30px;
+margin:0 auto;
+}
+.header ul{
+display:inline-block;
+line-height:30px;
+font-size:14px;
+color:#666666;
+}
+.header ul li{
+margin-left:20px;
+}
+.header a{
+color:#666666;
+}
+.header .left{
+float:left;
+}
+.header .left li{
+float:left;
+}
+.header .right{
+float:right;
+}
+.header .right li{
+float:left;
+}
+.cart{
+width:1200px;
+height:100px;
+margin:0 auto;
+}
+.cart img{
+margin-top:25px;
+float:left;
+}
+.cart .logo{
+display:inline-block;
+font-size:22px;
+margin-left:20px;
+float:left;
+line-height:100px;
+font-weight:bold;
+}
+.cart .search_box{
+float:right;
+}
+.search_box{
+width:540px;
+height:30px;
+border:2px solid #e60012;
+margin-top:35px;
+}
+.search_box input{
+width:83%;
+height:26px;
+border:none;
+margin-left:5px;
+}
+:focus{
+outline:none;
+}
+.search_box span{
+display:inline-block;
+width:14%;
+height:30px;
+text-align:center;
+background:#e60012;
+color:#ececec;
+line-height:30px;
+font-size:15px;
+float:right;
+cursor:pointer;
+}
+.top{
+width:1200px;
+height:30px;
+border-bottom:1px solid #999999;
+margin:0 auto;
+}
+.top p{
+font-size:19px;
+margin:10px 0 0 50px;
+color:orangered;
+}
+table{
+width:1100px;
+margin:30px auto;
+}
+th{
+font-weight:normal;
+font-size:14px;
+}
+.ul{
+width:1100px;
+height:110px;
+margin:20px auto;
+border:1px solid #ccc;
+box-sizing:border-box;
+padding:10px;
+background-color:#fcfcfc;
+}
+.ul img{
+width:90px;
+height:90px;
+float:left;
+}
+.ul li{
+float:left;
+line-height:90px;
+margin-left:20px;
+}
+.ul .name{
+font-size:15px;
+width:140px;
+text-align:center;
+}
+.ul .price{
+font-size:18px;
+margin:0 20px 0 130px;
+width:60px;
+text-align:center;
+}
+.ul .num{
+margin-left:90px;
+box-sizing:border-box;
+padding-top:35px;
+}
+.ul .num button{
+width:28px;
+height:25px;
+background:#e5e5e5;
+border:none;
+font-size:22px;
+float:left;
+}
+.ul .num .input{
+width:25px;
+height:20px;
+float:left;
+text-align:center;
+}
+.ul .allmo{
+margin-left:120px;
+color:orangered;
+font-size:18px;
+width:70px;
+text-align:center;
+}
+.ul .delete{
+margin-left:165px;
+}
+.ul .delete a{
+color:#999;
+}
+.ul .delete a:hover{
+color:orangered;
+}

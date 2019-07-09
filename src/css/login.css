@@ -1,0 +1,185 @@
+*{
+margin:0;
+padding:0;
+}
+li{
+list-style:none;
+}
+a{
+text-decoration:none;
+}
+/*头部*/
+top_box{
+width:100%;
+height:110px;
+}
+.top{
+width:1200px;
+height:110px;
+margin:0 auto;
+}
+.top a{
+display:inline-block;
+margin-top:24px;
+float:left;
+}
+.list_len{
+float:right;
+width:790px;
+height:60px;
+margin:25px 10px 0 0 ;
+}
+.list_len ul{
+width:100%;
+height:60px;
+margin-left:50px;
+}
+.list_len li{
+float:left;
+height:60px;
+width:180px;
+line-height:60px;
+text-align:center;
+}
+.list_len i{
+display:inline-block;
+width:40px;
+height:40px;
+float:left;
+margin:8px 0 0 60px;
+background-image:url("../images/index-icon3.png");
+background-repeat:no-repeat;
+background-position:-268px -45px;
+}
+.main_box{
+width:100%;
+height:475px;
+background-image:url(../images/login-bg_03.jpg);
+background-repeat:no-repeat;
+background-position:center;
+}
+.main{
+width:1200px;
+height:475px;
+margin:0 auto;
+}
+.main .login_box{
+width:400px;
+height:313px;
+background:#ffffff;
+float:right;
+margin-top:60px;
+}
+.login_box .log_top{
+width:400px;
+height:50px;
+box-sizing:border-box;
+padding:10px 25px;
+}
+.login_box .log_top h3{
+float:left;
+}
+.login_box .log_top span{
+float:right;
+color:red;
+font-size:14px;
+}
+.form{
+width:400px;
+height:228px;
+box-sizing:border-box;
+padding:0 20px;
+}
+.form .form_name{
+width:360px;
+height:44px;
+border:1px solid #ccc;
+}
+.form .form_name .pic01{
+display:inline-block;
+width:36px;
+height:44px;
+background-image:url(../images/login-icon03.png);
+background-position:-320px -36px;
+float:left;
+}
+.form .form_name input{
+width:280px;
+height:24px;
+margin:10px 0 0 10px;
+border:none;
+font-size:15px;
+color:#999;
+}
+:focus{
+outline:none;
+}
+.form .form_pwd{
+width:360px;
+height:44px;
+border:1px solid #ccc;
+margin:20px 0;
+}
+.form .form_pwd .pic02{
+display:inline-block;
+width:36px;
+height:44px;
+background-image:url(../images/login-icon03.png);
+background-position:-360px -36px;
+float:left;
+}
+.form .form_pwd input{
+width:280px;
+height:24px;
+margin:10px 0 0 10px;
+border:none;
+font-size:15px;
+color:#999;
+}
+.form button{
+width:360px;
+height:44px;
+background:#e60012;
+color:#f1f1f1;
+font-size:18px;
+border:none;
+}
+.form p{
+float:right;
+font-size:14px;
+margin-top:20px;
+}
+.form p a{
+color:#999999;
+}
+/*足部*/
+.foot_wrap{
+width:100%;
+height: 50px;
+}
+.foot{
+width:1200px;
+height:100px;
+margin:50px auto;
+}
+.copy{
+width:650px;
+height:25px;
+margin:15px auto;
+}
+.copy li{
+float:left;
+font-size:15px;
+margin-left:8px;
+width:75px;
+height:20px;
+color:#666;
+line-height:19px;
+text-align:center;
+border-right:#666 1px solid;
+}
+.foot p{
+text-align:center;
+font-size:14px;
+color:#666;
+}

@@ -1,0 +1,36 @@
+[
+  {
+  "lId":1,
+  "lName":"金龙鱼浓香花生油5L",
+  "lPrice":"60",
+    "lImg":"./images/list01.jpg"
+},
+  {
+    "lId":2,
+    "lName":"娃哈哈AD钙饮料",
+    "lPrice":"30",
+    "lImg":"./images/list02.jpg"
+
+  }
+,
+  {
+    "lId":3,
+    "lName":"利麦原味小麦粉",
+    "lPrice":"40",
+    "lImg":"./images/q02.jpg"
+  }
+,
+  {
+    "lId":4,
+    "lName":"福兴长粒香米",
+    "lPrice":"50",
+    "lImg":"./images/q01.jpg"
+  }
+,
+  {
+    "lId":5,
+    "lName":"乐百氏脉动饮料",
+    "lPrice":"40",
+    "lImg":"./images/q03.jpg"
+  }
+]
